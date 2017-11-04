@@ -1,0 +1,6 @@
+REM
+REM
+
+DELAY 1000
+STRING unsigned long fibo(unsignedlong n){if(n==0)	{		return0;	}	unsignedlong i=0;	unsignedlong j=1;	unsignedlong k,t; for(k=2;k<=n;++k){t=i+j;i=j;j=t;} return j;}
+
