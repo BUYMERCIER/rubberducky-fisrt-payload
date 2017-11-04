@@ -1,0 +1,5 @@
+REM paste ocr interface compiling line
+REM
+
+DELAY 500
+STRING gcc `pkg-config --cflags gtk+-3.0` -o interface interface.c `pkg-config --libs gtk+-3.0` 
